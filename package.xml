@@ -16,41 +16,27 @@
 
   <buildtool_depend>catkin</buildtool_depend>
   <build_depend>roscpp</build_depend>
-  <build_depend>phantomx_lib</build_depend>
-  <build_depend>arbotix_msgs</build_depend>
   <build_depend>actionlib</build_depend>
-  <build_depend>control_msgs</build_depend>
   <build_depend>tf</build_depend>
   <build_depend>tf_conversions</build_depend>
   <build_depend>trajectory_msgs</build_depend>
-  <build_depend>sensor_msgs</build_depend>
   <build_depend>cmake_modules</build_depend>
-
   <build_depend>moveit_core</build_depend>
   <build_depend>moveit_ros_perception</build_depend>
   <build_depend>moveit_ros_planning_interface</build_depend>
   <build_depend>moveit_ros_control_interface</build_depend>
-  <build_depend>phantomx_rst</build_depend>
   <build_depend>pluginlib</build_depend>
 
   <run_depend>roscpp</run_depend>
-  <run_depend>phantomx_lib</run_depend>
-  <run_depend>arbotix_msgs</run_depend>
   <run_depend>actionlib</run_depend>
-  <run_depend>control_msgs</run_depend>
   <run_depend>tf</run_depend>
   <run_depend>tf_conversions</run_depend>
   <run_depend>trajectory_msgs</run_depend>
   <run_depend>cmake_modules</run_depend>
-  <run_depend>sensor_msgs</run_depend>
-  <run_depend>arbotix</run_depend>
-  <run_depend>turtlebot_arm</run_depend>
-  
   <run_depend>moveit_core</run_depend>
   <run_depend>moveit_ros_perception</run_depend>
   <run_depend>moveit_ros_planning_interface</run_depend>
   <run_depend>moveit_ros_control_interface</run_depend>
-  <run_depend>phantomx_rst</run_depend>
   <run_depend>pluginlib</run_depend>
 
 

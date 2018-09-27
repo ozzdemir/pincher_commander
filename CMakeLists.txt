@@ -2,23 +2,16 @@ cmake_minimum_required(VERSION 2.8.3)
 project(pincher_commander)
 
 find_package(catkin REQUIRED
-    arbotix_msgs
   	actionlib 
-    phantomx_lib
-	control_msgs
 	tf
 	tf_conversions
 	trajectory_msgs
-	sensor_msgs
 	cmake_modules
-	phantomx_rst
 	moveit_core
 	moveit_ros_perception
 	moveit_ros_planning_interface
 	moveit_ros_control_interface
 )
-
-find_package(Eigen REQUIRED)
 
 ## Enable C++11 support
 include(CheckCXXCompilerFlag)
@@ -35,30 +28,25 @@ endif()
 catkin_package(
   INCLUDE_DIRS include
   CATKIN_DEPENDS
-        arbotix_msgs
   	actionlib 
-        phantomx_lib
-	control_msgs
 	tf
 	tf_conversions
 	trajectory_msgs
-	sensor_msgs
 	cmake_modules
 	moveit_core
 	moveit_ros_perception
 	moveit_ros_planning_interface
 	moveit_ros_control_interface
 	pluginlib
-  DEPENDS system_lib Eigen3 opencv2
+  DEPENDS system_lib
 )
 include_directories(
   ${catkin_INCLUDE_DIRS}
-  ${Eigen_INCLUDE_DIRS}
-  ${OpenCV_INCLUDE_DIRS}
 )
 
 
-add_executable(${PROJECT_NAME}_moveit_node src/pincher_commander_moveit.cpp)
+add_executable(${PROJECT_NAME}_moveit_node src/pincher_commander_moveit/pincher_commander_moveit.cpp)
+add_dependencies(${PROJECT_NAME}_moveit_node ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
 target_link_libraries(${PROJECT_NAME}_moveit_node ${catkin_LIBRARIES})
 set_target_properties(${PROJECT_NAME}_moveit_node PROPERTIES OUTPUT_NAME node PREFIX "moveit_")
 

@@ -6,11 +6,12 @@ Panels:
       Expanded:
         - /Global Options1
         - /Status1
+        - /RobotModel1
         - /TF1
         - /Camera1
         - /Camera1/Visibility1
       Splitter Ratio: 0.5
-    Tree Height: 156
+    Tree Height: 328
   - Class: rviz/Selection
     Name: Selection
   - Class: rviz/Tool Properties
@@ -204,9 +205,11 @@ Visualization Manager:
         arm_elbow_F3_0_link:
           Value: false
         arm_elbow_flex_link:
-          Value: false
+          Value: true
         arm_elbow_flex_servo_link:
           Value: false
+        arm_mount_link:
+          Value: true
         arm_shoulder_F10_0_link:
           Value: false
         arm_shoulder_F10_1_link:
@@ -216,17 +219,17 @@ Visualization Manager:
         arm_shoulder_F3_0_link:
           Value: false
         arm_shoulder_lift_link:
-          Value: false
+          Value: true
         arm_shoulder_lift_servo_link:
           Value: false
         arm_shoulder_pan_link:
-          Value: false
+          Value: true
         arm_shoulder_pan_servo_link:
           Value: false
         arm_wrist_F3_0_link:
           Value: false
         arm_wrist_flex_link:
-          Value: false
+          Value: true
         arm_wrist_flex_servo_link:
           Value: false
         base_link:
@@ -240,7 +243,7 @@ Visualization Manager:
         gripper_finger_base_link:
           Value: false
         gripper_link:
-          Value: false
+          Value: true
         gripper_servo_link:
           Value: false
         link_revolute_to_prismatic_virtual1:
@@ -274,6 +277,36 @@ Visualization Manager:
         tracker/user_1/right_shoulder:
           Value: true
         tracker/user_1/torso:
+          Value: true
+        tracker/user_10/head:
+          Value: true
+        tracker/user_10/left_elbow:
+          Value: true
+        tracker/user_10/left_foot:
+          Value: true
+        tracker/user_10/left_hand:
+          Value: true
+        tracker/user_10/left_hip:
+          Value: true
+        tracker/user_10/left_knee:
+          Value: true
+        tracker/user_10/left_shoulder:
+          Value: true
+        tracker/user_10/neck:
+          Value: true
+        tracker/user_10/right_elbow:
+          Value: true
+        tracker/user_10/right_foot:
+          Value: true
+        tracker/user_10/right_hand:
+          Value: true
+        tracker/user_10/right_hip:
+          Value: true
+        tracker/user_10/right_knee:
+          Value: true
+        tracker/user_10/right_shoulder:
+          Value: true
+        tracker/user_10/torso:
           Value: true
         tracker/user_2/head:
           Value: true
@@ -365,9 +398,159 @@ Visualization Manager:
           Value: true
         tracker/user_4/torso:
           Value: true
+        tracker/user_5/head:
+          Value: true
+        tracker/user_5/left_elbow:
+          Value: true
+        tracker/user_5/left_foot:
+          Value: true
+        tracker/user_5/left_hand:
+          Value: true
+        tracker/user_5/left_hip:
+          Value: true
+        tracker/user_5/left_knee:
+          Value: true
+        tracker/user_5/left_shoulder:
+          Value: true
+        tracker/user_5/neck:
+          Value: true
+        tracker/user_5/right_elbow:
+          Value: true
+        tracker/user_5/right_foot:
+          Value: true
+        tracker/user_5/right_hand:
+          Value: true
+        tracker/user_5/right_hip:
+          Value: true
+        tracker/user_5/right_knee:
+          Value: true
+        tracker/user_5/right_shoulder:
+          Value: true
+        tracker/user_5/torso:
+          Value: true
+        tracker/user_6/head:
+          Value: true
+        tracker/user_6/left_elbow:
+          Value: true
+        tracker/user_6/left_foot:
+          Value: true
+        tracker/user_6/left_hand:
+          Value: true
+        tracker/user_6/left_hip:
+          Value: true
+        tracker/user_6/left_knee:
+          Value: true
+        tracker/user_6/left_shoulder:
+          Value: true
+        tracker/user_6/neck:
+          Value: true
+        tracker/user_6/right_elbow:
+          Value: true
+        tracker/user_6/right_foot:
+          Value: true
+        tracker/user_6/right_hand:
+          Value: true
+        tracker/user_6/right_hip:
+          Value: true
+        tracker/user_6/right_knee:
+          Value: true
+        tracker/user_6/right_shoulder:
+          Value: true
+        tracker/user_6/torso:
+          Value: true
+        tracker/user_7/head:
+          Value: true
+        tracker/user_7/left_elbow:
+          Value: true
+        tracker/user_7/left_foot:
+          Value: true
+        tracker/user_7/left_hand:
+          Value: true
+        tracker/user_7/left_hip:
+          Value: true
+        tracker/user_7/left_knee:
+          Value: true
+        tracker/user_7/left_shoulder:
+          Value: true
+        tracker/user_7/neck:
+          Value: true
+        tracker/user_7/right_elbow:
+          Value: true
+        tracker/user_7/right_foot:
+          Value: true
+        tracker/user_7/right_hand:
+          Value: true
+        tracker/user_7/right_hip:
+          Value: true
+        tracker/user_7/right_knee:
+          Value: true
+        tracker/user_7/right_shoulder:
+          Value: true
+        tracker/user_7/torso:
+          Value: true
+        tracker/user_8/head:
+          Value: true
+        tracker/user_8/left_elbow:
+          Value: true
+        tracker/user_8/left_foot:
+          Value: true
+        tracker/user_8/left_hand:
+          Value: true
+        tracker/user_8/left_hip:
+          Value: true
+        tracker/user_8/left_knee:
+          Value: true
+        tracker/user_8/left_shoulder:
+          Value: true
+        tracker/user_8/neck:
+          Value: true
+        tracker/user_8/right_elbow:
+          Value: true
+        tracker/user_8/right_foot:
+          Value: true
+        tracker/user_8/right_hand:
+          Value: true
+        tracker/user_8/right_hip:
+          Value: true
+        tracker/user_8/right_knee:
+          Value: true
+        tracker/user_8/right_shoulder:
+          Value: true
+        tracker/user_8/torso:
+          Value: true
+        tracker/user_9/head:
+          Value: true
+        tracker/user_9/left_elbow:
+          Value: true
+        tracker/user_9/left_foot:
+          Value: true
+        tracker/user_9/left_hand:
+          Value: true
+        tracker/user_9/left_hip:
+          Value: true
+        tracker/user_9/left_knee:
+          Value: true
+        tracker/user_9/left_shoulder:
+          Value: true
+        tracker/user_9/neck:
+          Value: true
+        tracker/user_9/right_elbow:
+          Value: true
+        tracker/user_9/right_foot:
+          Value: true
+        tracker/user_9/right_hand:
+          Value: true
+        tracker/user_9/right_hip:
+          Value: true
+        tracker/user_9/right_knee:
+          Value: true
+        tracker/user_9/right_shoulder:
+          Value: true
+        tracker/user_9/torso:
+          Value: true
         tracker_depth_frame:
           Value: true
-      Marker Scale: 0.2
+      Marker Scale: 0.15
       Name: TF
       Show Arrows: true
       Show Axes: false
@@ -375,6 +558,8 @@ Visualization Manager:
       Tree:
         base_link:
           arm_base_link:
+            arm_mount_link:
+              {}
             arm_shoulder_pan_servo_link:
               arm_shoulder_pan_link:
                 arm_shoulder_lift_servo_link:
@@ -435,6 +620,36 @@ Visualization Manager:
               tracker/user_1/right_shoulder:
                 {}
               tracker/user_1/torso:
+                {}
+              tracker/user_10/head:
+                {}
+              tracker/user_10/left_elbow:
+                {}
+              tracker/user_10/left_foot:
+                {}
+              tracker/user_10/left_hand:
+                {}
+              tracker/user_10/left_hip:
+                {}
+              tracker/user_10/left_knee:
+                {}
+              tracker/user_10/left_shoulder:
+                {}
+              tracker/user_10/neck:
+                {}
+              tracker/user_10/right_elbow:
+                {}
+              tracker/user_10/right_foot:
+                {}
+              tracker/user_10/right_hand:
+                {}
+              tracker/user_10/right_hip:
+                {}
+              tracker/user_10/right_knee:
+                {}
+              tracker/user_10/right_shoulder:
+                {}
+              tracker/user_10/torso:
                 {}
               tracker/user_2/head:
                 {}
@@ -526,6 +741,156 @@ Visualization Manager:
                 {}
               tracker/user_4/torso:
                 {}
+              tracker/user_5/head:
+                {}
+              tracker/user_5/left_elbow:
+                {}
+              tracker/user_5/left_foot:
+                {}
+              tracker/user_5/left_hand:
+                {}
+              tracker/user_5/left_hip:
+                {}
+              tracker/user_5/left_knee:
+                {}
+              tracker/user_5/left_shoulder:
+                {}
+              tracker/user_5/neck:
+                {}
+              tracker/user_5/right_elbow:
+                {}
+              tracker/user_5/right_foot:
+                {}
+              tracker/user_5/right_hand:
+                {}
+              tracker/user_5/right_hip:
+                {}
+              tracker/user_5/right_knee:
+                {}
+              tracker/user_5/right_shoulder:
+                {}
+              tracker/user_5/torso:
+                {}
+              tracker/user_6/head:
+                {}
+              tracker/user_6/left_elbow:
+                {}
+              tracker/user_6/left_foot:
+                {}
+              tracker/user_6/left_hand:
+                {}
+              tracker/user_6/left_hip:
+                {}
+              tracker/user_6/left_knee:
+                {}
+              tracker/user_6/left_shoulder:
+                {}
+              tracker/user_6/neck:
+                {}
+              tracker/user_6/right_elbow:
+                {}
+              tracker/user_6/right_foot:
+                {}
+              tracker/user_6/right_hand:
+                {}
+              tracker/user_6/right_hip:
+                {}
+              tracker/user_6/right_knee:
+                {}
+              tracker/user_6/right_shoulder:
+                {}
+              tracker/user_6/torso:
+                {}
+              tracker/user_7/head:
+                {}
+              tracker/user_7/left_elbow:
+                {}
+              tracker/user_7/left_foot:
+                {}
+              tracker/user_7/left_hand:
+                {}
+              tracker/user_7/left_hip:
+                {}
+              tracker/user_7/left_knee:
+                {}
+              tracker/user_7/left_shoulder:
+                {}
+              tracker/user_7/neck:
+                {}
+              tracker/user_7/right_elbow:
+                {}
+              tracker/user_7/right_foot:
+                {}
+              tracker/user_7/right_hand:
+                {}
+              tracker/user_7/right_hip:
+                {}
+              tracker/user_7/right_knee:
+                {}
+              tracker/user_7/right_shoulder:
+                {}
+              tracker/user_7/torso:
+                {}
+              tracker/user_8/head:
+                {}
+              tracker/user_8/left_elbow:
+                {}
+              tracker/user_8/left_foot:
+                {}
+              tracker/user_8/left_hand:
+                {}
+              tracker/user_8/left_hip:
+                {}
+              tracker/user_8/left_knee:
+                {}
+              tracker/user_8/left_shoulder:
+                {}
+              tracker/user_8/neck:
+                {}
+              tracker/user_8/right_elbow:
+                {}
+              tracker/user_8/right_foot:
+                {}
+              tracker/user_8/right_hand:
+                {}
+              tracker/user_8/right_hip:
+                {}
+              tracker/user_8/right_knee:
+                {}
+              tracker/user_8/right_shoulder:
+                {}
+              tracker/user_8/torso:
+                {}
+              tracker/user_9/head:
+                {}
+              tracker/user_9/left_elbow:
+                {}
+              tracker/user_9/left_foot:
+                {}
+              tracker/user_9/left_hand:
+                {}
+              tracker/user_9/left_hip:
+                {}
+              tracker/user_9/left_knee:
+                {}
+              tracker/user_9/left_shoulder:
+                {}
+              tracker/user_9/neck:
+                {}
+              tracker/user_9/right_elbow:
+                {}
+              tracker/user_9/right_foot:
+                {}
+              tracker/user_9/right_hand:
+                {}
+              tracker/user_9/right_hip:
+                {}
+              tracker/user_9/right_knee:
+                {}
+              tracker/user_9/right_shoulder:
+                {}
+              tracker/user_9/torso:
+                {}
       Update Interval: 0
       Value: true
     - Alpha: 1
@@ -576,11 +941,11 @@ Visualization Manager:
       Value: true
     - Class: rviz/Camera
       Enabled: true
-      Image Rendering: background and overlay
+      Image Rendering: overlay
       Image Topic: /camera/rgb/image
       Name: Camera
-      Overlay Alpha: 0.7
-      Queue Size: 2
+      Overlay Alpha: 0.6
+      Queue Size: 1
       Transport Hint: raw
       Unreliable: false
       Value: true
@@ -594,7 +959,7 @@ Visualization Manager:
       Zoom Factor: 1
   Enabled: true
   Global Options:
-    Background Color: 255; 255; 255
+    Background Color: 191; 175; 172
     Fixed Frame: arm_base_link
     Frame Rate: 30
   Name: root
@@ -616,7 +981,7 @@ Visualization Manager:
   Views:
     Current:
       Class: rviz/Orbit
-      Distance: 1.63114
+      Distance: 0.989453
       Enable Stereo Rendering:
         Stereo Eye Separation: 0.06
         Stereo Focal Distance: 1
@@ -628,10 +993,10 @@ Visualization Manager:
         Z: 0.0770177
       Name: Current View
       Near Clip Distance: 0.01
-      Pitch: 0.805399
+      Pitch: 0.239797
       Target Frame: <Fixed Frame>
       Value: Orbit (rviz)
-      Yaw: 2.52539
+      Yaw: 3.43539
     Saved: ~
 Window Geometry:
   Camera:
@@ -641,7 +1006,7 @@ Window Geometry:
   Height: 1056
   Hide Left Dock: false
   Hide Right Dock: true
-  QMainWindow State: 000000ff00000000fd000000040000000000000484000003befc0200000009fb0000001200530065006c0065006300740069006f006e00000001e10000009b0000006400fffffffb0000001e0054006f006f006c002000500072006f007000650072007400690065007302000001ed000001df00000185000000a3fb000000120056006900650077007300200054006f006f02000001df000002110000018500000122fb000000200054006f006f006c002000500072006f0070006500720074006900650073003203000002880000011d000002210000017afb000000100044006900730070006c0061007900730100000000000000dd000000dd00fffffffb0000002000730065006c0065006300740069006f006e00200062007500660066006500720200000138000000aa0000023a00000294fb00000014005700690064006500530074006500720065006f02000000e6000000d2000003ee0000030bfb0000000c004b0069006e0065006300740200000186000001060000030c00000261fb0000000c00430061006d00650072006101000000e3000002db0000001600ffffff000000010000010f000002c4fc0200000003fb0000001e0054006f006f006c002000500072006f00700065007200740069006500730100000041000000780000000000000000fb0000000a005600690065007700730000000028000002c4000000b000fffffffb0000001200530065006c0065006300740069006f006e010000025a000000b200000000000000000000000200000490000000a9fc0100000001fb0000000a00560069006500770073030000004e00000080000002e100000197000000030000073f0000003efc0100000002fb0000000800540069006d006501000000000000073f000002f600fffffffb0000000800540069006d00650100000000000004500000000000000000000002b5000003be00000004000000040000000800000008fc0000000100000002000000010000000a0054006f006f006c00730000000000ffffffff0000000000000000
+  QMainWindow State: 000000ff00000000fd000000040000000000000373000003befc0200000009fb0000001200530065006c0065006300740069006f006e00000001e10000009b0000006400fffffffb0000001e0054006f006f006c002000500072006f007000650072007400690065007302000001ed000001df00000185000000a3fb000000120056006900650077007300200054006f006f02000001df000002110000018500000122fb000000200054006f006f006c002000500072006f0070006500720074006900650073003203000002880000011d000002210000017afb000000100044006900730070006c006100790073010000000000000189000000dd00fffffffb0000002000730065006c0065006300740069006f006e00200062007500660066006500720200000138000000aa0000023a00000294fb00000014005700690064006500530074006500720065006f02000000e6000000d2000003ee0000030bfb0000000c004b0069006e0065006300740200000186000001060000030c00000261fb0000000c00430061006d006500720061010000018f0000022f0000001600ffffff000000010000010f000002c4fc0200000003fb0000001e0054006f006f006c002000500072006f00700065007200740069006500730100000041000000780000000000000000fb0000000a005600690065007700730000000028000002c4000000b000fffffffb0000001200530065006c0065006300740069006f006e010000025a000000b200000000000000000000000200000490000000a9fc0100000001fb0000000a00560069006500770073030000004e00000080000002e100000197000000030000073f0000003efc0100000002fb0000000800540069006d006501000000000000073f000002f600fffffffb0000000800540069006d00650100000000000004500000000000000000000003c6000003be00000004000000040000000800000008fc0000000100000002000000010000000a0054006f006f006c00730000000000ffffffff0000000000000000
   Selection:
     collapsed: false
   Time:
@@ -651,5 +1016,5 @@ Window Geometry:
   Views:
     collapsed: true
   Width: 1855
-  X: 65
-  Y: 24
+  X: 55
+  Y: -14
