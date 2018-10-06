@@ -25,7 +25,7 @@ else()
 endif()
 
 catkin_package(
-  INCLUDE_DIRS include
+  INCLUDE_DIRS
   CATKIN_DEPENDS
   	actionlib 
 	tf
