@@ -75,7 +75,7 @@ int main( int argc, char** argv )
   group.setPoseTarget(target_pose1);
   // here we first check if we can find a plan
   moveit::planning_interface::MoveGroup::Plan my_plan1;
-  bool success = group.plan(my_plan1);
+  moveit::planning_interface::MoveItErrorCode success = group.plan(my_plan1);
   if (success){
       group.move();
   }

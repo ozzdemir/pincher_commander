@@ -28,6 +28,7 @@ rosrun pincher_commander pinchercommander_node.py
 __ = New Terminal
 
 Paketler için (catkin_ws/src içine git clone ile alınıp, catkin_make yapılabilir)
+https://github.com/rst-tu-dortmund/phantomx_rst #For kinetic, add "add_compile_options(-std=c++11)" to the cmakelists of the every package in the phantomx_rst metapackage.
 https://github.com/ozzdemir/skeleton_tracker
 https://github.com/ozzdemir/raw_skeleton
 https://github.com/ozzdemir/pincher_commander
